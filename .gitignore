@@ -1,0 +1,24 @@
+# node_modules no se suben nunca
+node_modules/
+
+# Archivos de logs
+logs/
+*.log
+
+# Variables de entorno locales
+.env
+
+# Configuraciones del sistema operativo o del IDE
+.DS_Store
+*.swp
+
+# Salida de depuración (por si usas npm run build algún día)
+dist/
+build/
+
+# Archivos de paquetes bloqueados (opcional)
+package-lock.json
+
+# Opcional: si usas alguna herramienta como PM2
+pids/
+*.pid
